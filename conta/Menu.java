@@ -25,6 +25,7 @@ public class Menu {
 		System.out.println("\nCriar Contas\n");
 		
 		ContaCorrente cc1 = new ContaCorrente(contas.gerarNumero(),123,1,"João da Silva",1000f,100.0f);
+<<<<<<< HEAD
 		contas.cadastrar(cc1);
 		
 		ContaCorrente cc2 = new ContaCorrente(contas.gerarNumero(),124,1,"Maria da Silva",2000f,100.0f);
@@ -32,6 +33,12 @@ public class Menu {
 		
 		ContaPoupanca cp1 = new ContaPoupanca(contas.gerarNumero(),125,2,"Mariana dos santos",4000f,12);
 		contas.cadastrar(cp1);
+=======
+		
+		ContaCorrente cc2 = new ContaCorrente(contas.gerarNumero(),124,1,"Maria da Silva",2000f,100.0f);
+		
+		ContaPoupanca cp1 = new ContaPoupanca(contas.gerarNumero(),125,2,"Mariana dos santos",4000f,12);
+>>>>>>> fd493480188c3b0cc5cb5c03f84d0ee53cbd5c99
 		
 		ContaPoupanca cp2 = new ContaPoupanca(contas.gerarNumero(),125,2,"Juliana Ramos",8000f,12);
 		contas.cadastrar(cp2);
